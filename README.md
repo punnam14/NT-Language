@@ -1,5 +1,5 @@
 # NT-Language
-number tool language and dynamic risc-v assembly code generation 
+number tool language and dynamic risc-v assembly code generation
 
 $ ./ntlang -e "(a0 + a1) * a2" -a0 3 -a1 4 -a2 5
 35
