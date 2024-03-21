@@ -1,7 +1,7 @@
 # NT-Language
 number tool language and dynamic risc-v assembly code generation
 
-$ ./ntlang -e "(a0 + a1) * a2" -a0 3 -a1 4 -a2 5
+$ ./ntlang -e "(a0 + a1) * a2" -a0 3 -a1 4 -a2 5 <br>
 35
 
 $ ./ntlang -e "(a0 + a1) * a2" -c foo > foo.s
